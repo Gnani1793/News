@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "server/src/server.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "server/src/server.js"
+      }
+    ],
+    "env": {
+      "MONGODB_URI": "mongodb+srv://gnani:gnani1744@cluster0.eflmm3u.mongodb.net/gnani?retryWrites=true&w=majority",
+      "NEWS_API_KEY": "a71e01382c804e47beb32aa59b1f03ed"
+    }
+  }
+  
