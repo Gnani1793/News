@@ -1,0 +1,38 @@
+/* client/src/components/news.css */
+.news-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .news-container h1 {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .news-article {
+    margin-bottom: 20px;
+  }
+  
+  .news-article h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .news-article p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .news-article a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .news-article a:hover {
+    text-decoration: underline;
+  }
+  
